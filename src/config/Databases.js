@@ -14,7 +14,7 @@ const connectDB = async () => {
   } catch (error) {
     console.error('Erro ao conectar ao banco de dados:', error.message);
     console.log(error.message)
-    // Trate o erro aqui, por exemplo, lançando uma exceção ou tomando alguma ação apropriada.
+  
   }
 };
 
